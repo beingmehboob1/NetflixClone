@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstpage{
+    height: 100vh;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(./netflixbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 50px;
+}
+.logo{
+    font-size: 25px;
+   color: red;
+  
+}
+.buttons select{
+    color: white;
+    background: none;
+    border: 2px solid gray;
+    margin: 20px;
+    height: 30px;
+    width: 95px;
+    text-align: center;   
+    font-weight: bold;
+}
+
+.buttons button{
+    background-color: red;
+    height: 35px;
+    width: 85px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.firsttxt{
+    color: white;
+    margin-top: 80px;
+    padding: 40px;
+    padding-left: 25mm;
+    font-size: 30px;
+    font-weight: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.firsttxt p{
+    font-size: 23px;
+}
+.sectxt h3{
+    padding-left: 25mm;
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sectxt form input
+{
+    padding-left: 3mm;
+    color: white;
+    background: none;
+    margin-left: 25mm;
+    margin-top: 25px;
+    width: 85mm;
+    height: 15mm;
+    font-size: 20px;
+}
+
+.sectxt form button{
+    border-radius: 5px;
+    width: 11vw;
+    height: 8vh;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.secoundpage{
+    width: 100%;   
+    background-color: rgb(20, 20, 20);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 20vw;
+    height: 54vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(153.61deg, #E40913 -192.17%, #170F48 80.89%);
+    padding: 30px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box1 .txt p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.third{
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+.third .heading{
+    padding-left: 2cm;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #170F48;
+    width: 80vw;
+    /* height: 10vh; */
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 2cm;
+    color: white;
+    padding: 17px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row1 button{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 40px;
+}
+
+.header2{
+    padding: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signup{
+    border: 2px solid green;
+    width: 55vh;
+    margin-left: 70px;
+    padding: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+.last{
+    display: flex;
+}
+.last button{
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:800px) {
+    header{
+            flex-direction: column;  
+    }
+}
